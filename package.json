@@ -1,0 +1,13 @@
+{
+  "name": "jobmate-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "dependencies": {
+    "playwright": "^1.51.1"
+  }
+}
