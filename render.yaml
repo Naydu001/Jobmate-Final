@@ -1,10 +1,7 @@
 services:
   - type: web
     name: jobmate-final
-    runtime: node
     repo: https://github.com/Naydu001/Jobmate-Final
     branch: main
-    buildCommand: |
-      npm install
-      npx playwright install firefox
-    startCommand: node index.js
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
