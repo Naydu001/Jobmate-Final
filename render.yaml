@@ -1,7 +1,10 @@
 services:
   - type: web
-    name: jobmate-automation
-    env: node
-    buildCommand: npm install
+    name: jobmate-final
+    runtime: node
+    repo: https://github.com/Naydu001/Jobmate-Final
+    branch: main
+    buildCommand: |
+      npm install
+      npx playwright install firefox --with-deps
     startCommand: node index.js
-    plan: free
