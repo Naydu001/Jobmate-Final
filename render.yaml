@@ -4,4 +4,4 @@ services:
     repo: https://github.com/Naydu001/Jobmate-Final
     branch: main
     region: frankfurt
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: Dockerfile
