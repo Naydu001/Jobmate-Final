@@ -6,5 +6,5 @@ services:
     branch: main
     buildCommand: |
       npm install
-      npx playwright install firefox --with-deps
+      npx playwright install firefox
     startCommand: node index.js
